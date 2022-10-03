@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#blocoNav {
+    text-align: center;
+    position: absolute;
+    width: 20vw;
+    background-color: rgb(92, 0, 0);
+}
+
+#blocoInf {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    background-color: rgb(251, 126, 0);
+}
+
+#eu {
+    position: relative;
+    border: solid 0.75vmin silver;
+    top: 20vmin;
+    width: 12.5vmax;
+    border-radius: 10vw;
+    box-shadow: 0.5vh 0.5vh black;
+}
+
+.infos {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 2.5vw;
+}
+
+.block {
+    height: 100vh;
+}
+
+.linkText:link,
+.linkText:visited {
+    text-decoration: none;
+    color: silver;
+    text-shadow: 0.5vh 0.5vh black;
+}
+
+.linkText:hover {
+    text-decoration: none;
+    color: rgb(251, 126, 0);
+}
+
+#linksPages {
+    position: relative;
+    font-size: 1.75vmax;
+    top: 25vh;
+}
+
+.linkText ul, li{
+    margin-bottom: 1.5vmax;
+}
+
+#nome {
+    color: rgb(92, 0, 0);
+    font-size: 3.5vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.sobrenome {
+    color: whitesmoke;
+    font-size: 3.5vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+#email:link,
+#email:visited {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+#email:hover {
+    text-shadow: 0.2vh 0.2vh black;
+}
+
+#dados {
+    margin-right: 10%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#dados h2 {
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+
+#dados p {
+    font-size: 3.5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+
+.redes {
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    transform: translateY(-50%);
+}
+
+.iconsRedes {
+    width: 5vmax;
+    margin: 1vw;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+#dadosConhecimentos {
+    margin-left: 5%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(92, 0, 0);;
+}
+
+#dadosConhecimentos h1 {
+    color:rgb(92, 0, 0);
+    font-size: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.2vw 0.2vw whitesmoke;
+}
+
+#dadosConhecimentos ol li {
+    list-style: upper-alpha;
+    font-size: 7.5vh;
+    margin-bottom: 5vh;
+    text-shadow: 0.2vw 0.2vw whitesmoke;
+}
+
+#dadosObjetivos {
+    margin-left: 5%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+#dadosObjetivos h1 {
+    color:rgb(92, 0, 0);
+    font-size: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.2vw 0.2vw whitesmoke;
+}
+
+#dadosObjetivos h2{
+    color:rgb(92, 0, 0);
+    font-size: 7vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.2vw 0.2vw whitesmoke;
+}
+
+#dadosObjetivos ul li {
+    color:rgb(92, 0, 0);
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
